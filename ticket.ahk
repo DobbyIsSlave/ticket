@@ -19,37 +19,37 @@ return
 Doing()
 {
     ;새로고침 클릭
-    ImageSearchAndClick("refresh.bmp", 1348, 550, 1462, 616)
+    ImageSearchAndClick("refresh.bmp", 915, 370, 978, 408)
     sleep, 500
     ;자리 클릭
-    if (ImageSearchAndClick("chair_on.bmp", 1368, 671, 1446, 794))
+    if (ImageSearchAndClick("chair_on.bmp", 935, 444, 977, 520))
     {
-        sleep, 300
-        if (ImageSearchAndClick("chair_purple.bmp", 107, 387, 1000, 1179))
+        sleep, 500
+        if (ImageSearchAndClick("chair_purple.bmp", 28, 230, 713, 791))
         {
-            sleep, 300
-            if (ImageSearchAndClick("chair_purple.bmp", 107, 387, 1000, 1179))
+            sleep, 500
+            if (ImageSearchAndClick("chair_purple.bmp", 28, 230, 713, 791))
             {
-                sleep, 300
-                ImageSearchAndClick("next.bmp", 1270, 1148, 1455, 1268)
+                sleep, 500
+                ImageSearchAndClick("next.bmp", 880, 805, 969, 847)
             }
         }
-        else if (ImageSearchAndClick("chair_red.bmp", 107, 387, 1000, 1179))
+        else if (ImageSearchAndClick("chair_red.bmp", 28, 230, 713, 791))
         {
-            sleep, 300
-            if (ImageSearchAndClick("chair_red.bmp", 107, 387, 1000, 1179))
+            sleep, 500
+            if (ImageSearchAndClick("chair_red.bmp", 28, 230, 713, 791))
             {
-                sleep, 300
-                ImageSearchAndClick("next.bmp", 1270, 1148, 1455, 1268)
+                sleep, 500
+                ImageSearchAndClick("next.bmp", 880, 805, 969, 847)
             }
         }
-        else if (ImageSearchAndClick("chair_mint.bmp", 107, 387, 1000, 1179))
+        else if (ImageSearchAndClick("chair_mint.bmp", 28, 230, 713, 791))
         {
-            sleep, 300
-            if (ImageSearchAndClick("chair_mint.bmp", 107, 387, 1000, 1179))
+            sleep, 500
+            if (ImageSearchAndClick("chair_mint.bmp", 28, 230, 713, 791))
             {
-                sleep, 300
-                ImageSearchAndClick("next.bmp", 1270, 1148, 1455, 1268)
+                sleep, 500
+                ImageSearchAndClick("next.bmp", 880, 805, 969, 847)
             }
         }
     }
